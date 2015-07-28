@@ -1,0 +1,41 @@
+-run
+-preference -2
+-damping 0.7
+-windowRatio 0.3
+-inputDir /Users/anna/Documents/segmentation/data/ai_manual_small
+-outputDir /Users/anna/Documents/segmentation/Results_Output/ai_manual_small
+-inputExtensions ref
+-corpusExtensions dev,ref
+-resultsFile ai_small_test_command_line.txt
+-sparse true
+-useSegmentDf true
+-numTFIDFsegments 30
+-smoothing true
+-smoothingAlpha 1.45
+-smoothingWindow 2
+-dataSourceType SimpleFileDataSource
+
+June 1st: write small tests to test APSSimpleRun with SimpleFileDataSource and with MultipleAnnots
+
+Stopped at  this.CreateAffinityPropagationSegmenter
+
+*****************
+params for RunAPS
+
+-run
+-preference -2
+-damping 0.7
+-windowRatio 0.3
+-inputDir /Users/anna/Documents/segmentation/data/tiny_ai
+-outputDir /Users/anna/Documents/segmentation/Results_Output/ai_manual_small
+-inputExtensions ref
+-corpusExtensions dev,ref
+-resultsFile ai_small_test_command_line.txt
+-sparse true
+-useSegmentDf true
+-numTFIDFsegments 30
+-smoothing true
+-smoothingAlpha 1.45
+-smoothingWindow 2
+-dataSourceType SimpleFileDataSource
+******************

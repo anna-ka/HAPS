@@ -1,0 +1,4 @@
+/Users/anna/eclipse_workspace/HAPS/./data/moonstone_hierarchical/text/ch9.txt:	0.1675
+/Users/anna/eclipse_workspace/HAPS/./data/moonstone_hierarchical/text/ch5.txt:	0.41625
+MEAN:	0.291875
+STD DEV:	0.124375

@@ -1,0 +1,4 @@
+gold /Users/anna/eclipse_workspace/HAPS/Results/hier_moonstone_evalHDS/tmp/ref/ch5_an15.txt
+
+file /Users/anna/eclipse_workspace/HAPS/./Results/hier_moonstone_evalHDS/tmp/hypo/ch5.txt
+judge HAPS_mult

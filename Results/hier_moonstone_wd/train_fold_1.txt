@@ -1,0 +1,2 @@
+smoothing	smoothingAlpha	smoothingWindow	windowRatio	damping	preference_level0	preference_level1	preference_level2	unknown	std.dev
+true	1.45	2.0	0.9	0.9	0.5	-0.4	-2.0	0.3677332050009081	0.01962220274923651
