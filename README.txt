@@ -1,5 +1,36 @@
 This Java package contains the code of Hierarchical Affinity Propagation for Segmentation or HAPS system described in my COLING 2014 paper. 
 
+
+INSTALLATION INSTRUCTIONS
+
+This project is a Maven project so you need to have Maven installed on your system. 
+
+1. Before compiling the code, download this archive:
+
+https://drive.google.com/file/d/0B1UaCuNlJuDZSUdxb3J2dWNPNFk/view?usp=sharing
+
+It contains files jars not available through Maven central repository.One of the jars contains models for stanford-corenlp-3.2.0, making the file quite a large one.
+
+ After downloading the archive, open it and copy the directory <3rd_party_libs> inside your HAPS directory.
+Then run ./install_3rdparty_jars.sh
+
+The script will install the five jars into your local Maven repository.
+
+2. Next run
+
+./build-haps.sh
+
+It will compile the project and create a jar file for you in target/HAPS-0.0.1-SNAPSHOT.jar. It will also copy all external dependencies in target/dependency.
+
+Now you can run the jar like this:
+
+java -Xmx7500M -cp target/HAPS-0.0.1-SNAPSHOT.jar:target/dependency/* experiments.RunHAPS -useConfig ./config/hier_moonstone_simple
+
+However, the software is not mature enough for a command line and it is best use as as API. See test/TestRunHAPS.java for an example of how to use it.
+
+
+Miscelaneous
+
 I tried not to include external code to the extent possible and because of that this is a bare-bones package 
 that does not contain the code for using a number of external resources for benchmarking, evaluating or computing similarities more intelligently.
 If you need that code please contact me.

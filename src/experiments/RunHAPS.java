@@ -5,7 +5,12 @@ public class RunHAPS {
 //	String[] commandLineMoonstone = {"-useConfig", "./config/test_hier_moonstone.config" };
 	String[] commandLineMoonstone = {"-useConfig", "./config/hier_moonstone_simple" };
 	String[] commandLineWikiForCV = {"-useConfig", "./config/test_hier_wiki_cv.config"};
-	APSParameterDictionary params ;
+	public APSParameterDictionary params ;
+	
+	public RunHAPS()
+	{
+		this.params = new APSParameterDictionary();
+	}
 
 	/**
 	 * @param args
@@ -13,7 +18,7 @@ public class RunHAPS {
 	public static void main(String[] args) {
 		
 		RunHAPS runHaps = new RunHAPS();
-		runHaps.params= new APSParameterDictionary();
+		
 		
 		
 		try {

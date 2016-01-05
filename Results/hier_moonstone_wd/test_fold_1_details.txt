@@ -1,4 +1,4 @@
-/Users/anna_k/Documents/Code/HAPS/HAPS/./data/moonstone_hierarchical/text/ch8.txt:	0.37849635349635347
 /Users/anna_k/Documents/Code/HAPS/HAPS/./data/moonstone_hierarchical/text/ch5.txt:	0.3873554077501446
-MEAN:	0.38292588062324906
-STD DEV:	0.004429527126895566
+/Users/anna_k/Documents/Code/HAPS/HAPS/./data/moonstone_hierarchical/text/ch4.txt:	0.3481110022516716
+MEAN:	0.3677332050009081
+STD DEV:	0.01962220274923651
