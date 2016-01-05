@@ -1,4 +1,4 @@
-gold /Users/anna/eclipse_workspace/HAPS/Results/hier_moonstone_wd/tmp/ref/ch1_an5.txt
+gold /Users/anna_k/Documents/Code/HAPS/HAPS/Results/hier_moonstone_wd/tmp/ref/ch1_an5.txt
 
-file /Users/anna/eclipse_workspace/HAPS/./Results/hier_moonstone_wd/tmp/hypo/ch1.txt
+file /Users/anna_k/Documents/Code/HAPS/HAPS/./Results/hier_moonstone_wd/tmp/hypo/ch1.txt
 judge HAPS_mult

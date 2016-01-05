@@ -18,7 +18,8 @@ public class RunHAPS {
 		
 		try {
 			
-			runHaps.params.ParseCommandLine(runHaps.commandLineMoonstone);
+			//runHaps.params.ParseCommandLine(runHaps.commandLineMoonstone);
+			runHaps.params.ParseCommandLine(args);
 			runHaps.params.SetValue("useWDPerLevel", new Boolean(true));
 			
 //			//or let's try using EvalHDS
